@@ -4467,10 +4467,6 @@ textarea.form-control.is-invalid {
   top: 50%;
 }
 
-.right-1 {
-  right: 0.25rem;
-}
-
 .z-\[9999\] {
   z-index: 9999;
 }
@@ -4797,10 +4793,6 @@ textarea.form-control.is-invalid {
   width: 16rem;
 }
 
-.w-auto {
-  width: auto;
-}
-
 .min-w-max {
   min-width: -webkit-max-content;
   min-width: -moz-max-content;
@@ -4817,10 +4809,6 @@ textarea.form-control.is-invalid {
 
 .flex-shrink {
   flex-shrink: 1;
-}
-
-.flex-grow {
-  flex-grow: 1;
 }
 
 .table-auto {
@@ -4863,11 +4851,6 @@ textarea.form-control.is-invalid {
 
 .translate-x-0 {
   --tw-translate-x: 0px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-x-px {
-  --tw-translate-x: -1px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -5039,24 +5022,16 @@ textarea.form-control.is-invalid {
   overflow-y: auto;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .rounded {
   border-radius: 0.25rem;
-}
-
-.rounded-3xl {
-  border-radius: 1.5rem;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
 }
 
 .rounded-l-lg {
@@ -5075,10 +5050,6 @@ textarea.form-control.is-invalid {
 
 .border-0 {
   border-width: 0px;
-}
-
-.border-2 {
-  border-width: 2px;
 }
 
 .border-y {
@@ -5144,11 +5115,6 @@ textarea.form-control.is-invalid {
 .border-gray-100 {
   --tw-border-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
-}
-
-.border-blue-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(63 131 248 / var(--tw-border-opacity));
 }
 
 .bg-white {
@@ -5384,16 +5350,6 @@ textarea.form-control.is-invalid {
   padding-bottom: 0.625rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .pr-4 {
   padding-right: 1rem;
 }
@@ -5460,14 +5416,6 @@ textarea.form-control.is-invalid {
 
 .pb-5 {
   padding-bottom: 1.25rem;
-}
-
-.pr-36 {
-  padding-right: 9rem;
-}
-
-.text-left {
-  text-align: left;
 }
 
 .text-center {
@@ -5549,10 +5497,6 @@ textarea.form-control.is-invalid {
   line-height: 47px;
 }
 
-.leading-tight {
-  line-height: 1.25;
-}
-
 .leading-8 {
   line-height: 2rem;
 }
@@ -5561,8 +5505,8 @@ textarea.form-control.is-invalid {
   line-height: .75rem;
 }
 
-.leading-7 {
-  line-height: 1.75rem;
+.leading-tight {
+  line-height: 1.25;
 }
 
 .tracking-tighter {
@@ -5777,6 +5721,21 @@ nav .dropdown-menu ::-webkit-scrollbar-thumb {
 nav .dropdown-menu ::-webkit-scrollbar-track {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity)) !important;
+}
+
+.disabled {
+  cursor: not-allowed !important;
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(242 242 242 / var(--tw-bg-opacity)) !important;
+  --tw-text-opacity: 1 !important;
+  color: rgb(204 204 204 / var(--tw-text-opacity)) !important;
+}
+
+.disabled:hover {
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(242 242 242 / var(--tw-border-opacity)) !important;
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(242 242 242 / var(--tw-bg-opacity)) !important;
 }
 
 /* loader */
@@ -6004,11 +5963,6 @@ preloader {
   background-color: rgb(26 86 219 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-blue-600:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(28 100 242 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-opacity-40:hover {
   --tw-bg-opacity: 0.4;
 }
@@ -6139,15 +6093,6 @@ preloader {
 .focus\:ring-blue-300:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(164 202 254 / var(--tw-ring-opacity));
-}
-
-.focus\:ring-blue-500:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(63 131 248 / var(--tw-ring-opacity));
-}
-
-.focus\:ring-opacity-50:focus {
-  --tw-ring-opacity: 0.5;
 }
 
 .active\:bg-blue-800:active {
@@ -6361,10 +6306,6 @@ preloader {
     margin-bottom: 1.75rem;
   }
 
-  .lg\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
   .lg\:flex {
     display: flex;
   }
@@ -6451,22 +6392,11 @@ preloader {
     width: 75%;
   }
 
-  .xl\:w-auto {
-    width: auto;
-  }
-
   .xl\:items-start {
     align-items: flex-start;
   }
 
   .xl\:justify-between {
     justify-content: space-between;
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 }
