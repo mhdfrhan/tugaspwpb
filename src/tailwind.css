@@ -32,6 +32,10 @@ nav .dropdown-menu ::-webkit-scrollbar-track {
   @apply bg-[#f2f2f2] cursor-not-allowed hover:bg-[#f2f2f2] hover:border-[#f2f2f2] text-[#ccc] !important
 }
 
+.collapsing {
+  @apply duration-700 ease-in-out !important
+}
+
 /* loader */
 
 preloader {

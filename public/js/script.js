@@ -16,6 +16,9 @@ $(document).ready(function () {
 	$('nav .dropdown').hover(function(){
 		$('#backdrop').toggleClass('active')
 	})
+	$('.arrow-collapse').click(function(){
+		$(this).toggleClass('rotate-180')
+	})
 })
 
 $(window).on('load', function () {
