@@ -36,6 +36,14 @@ nav .dropdown-menu ::-webkit-scrollbar-track {
   @apply duration-700 ease-in-out !important
 }
 
+.datepicker-header {
+ @apply h-auto bg-inherit
+}
+
+.focused {
+  @apply bg-gray-100 !important
+}
+
 /* loader */
 
 preloader {
